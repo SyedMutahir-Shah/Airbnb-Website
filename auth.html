@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb Website Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Updated Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg" alt="Airbnb Logo">
+    </div>
+
+
+    <div class="nav-links">
+      <a href="#">Stays</a>
+      <a href="#">Experiences</a>
+    </div>
+    <!-- Right Section -->
+    <div class="right-section">
+      <span class="text" style="color: #000; font-weight: bolder;">Airbnb your home</span>
+      <div class="icon3"> <i class="ri-global-line"></i></div>
+      <div class="iconn" id="menuToggle">
+        <i id="icon2" class="ri-menu-line"></i>
+        <div class="icon1"><i class="ri-user-line"></i> <!-- Profile Icon --></div><!-- Menu Icon -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown Menu -->
+  <div class="dropdown" id="dropdownMenu">
+    <a href="#">Login</a>
+    <a href="#">Sign Up</a>
+    <a href="#">Travel</a>
+    <a href="#">Discount</a>
+  </div>
+
+
+  <!-- search bar -->
+  <!-- second section -->
+  <div class="wrapper">
+    <div class="search-bar">
+      <!-- Where Section -->
+      <div class="search-item">
+        <strong>Where</strong>
+        <span>Search destinations</span>
+      </div>
+      <!-- Check-in Section -->
+      <div class="search-item">
+        <strong>Check in</strong>
+        <span>Add dates</span>
+      </div>
+      <!-- Check-out Section -->
+      <div class="search-item">
+        <strong>Check out</strong>
+        <span>Add dates</span>
+      </div>
+      <!-- Who Section -->
+      <div class="search-item">
+        <strong>Who</strong>
+        <span>Add guests</span>
+      </div>
+      <!-- Search Button -->
+      <button class="search-button">
+        <i class="ri-search-line"></i>
+      </button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- icon section 3rd section  -->
+
+  <div class="icon-section">
+    <a href="#" class="icon-item ">
+      <i class="fas fa-bed"></i>
+      Rooms
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-ticket-alt"></i>
+      Icons
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-city"></i>
+      Top cities
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-fire"></i>
+      Trending
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-tree"></i>
+      National parks
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-water"></i>
+      Lake
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-image"></i>
+      Amazing views
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-snowflake"></i>
+      Arctic
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-space-shuttle"></i>
+      OMG!
+    </a>
+    <a href="#" class="icon-item">
+      <i class="fas fa-drafting-compass"></i>
+      Design
+    </a>
+
+    <div class="filter-container">
+      <button>Filters</button>
+      <div class="toggle">
+        <span>Display total before taxes</span>
+        <input type="checkbox">
+      </div>
+    </div>
+  </div>
+
+  <!-- 3rd section / image section -->
+   <!-- grid section -->
+   <div class="grid-container">
+    <div class="card">
+        <img src="image/pic1.jpeg" alt="Kecamatan Cimenyan">
+        <div class="card-content">
+            <h3>Kecamatan Cimenyan, Indonesia</h3>
+            <p>5,635 kilometers away</p>
+            <p>Feb 3 - 8</p>
+            <p class="price">&euro;65 night</p>
+            <p class="rating">&#9733; 4.84</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image/pic2.jpeg" alt="Mandaluyong">
+        <div class="card-content">
+            <h3>Mandaluyong, Philippines</h3>
+            <p>5,730 kilometers away</p>
+            <p>Feb 3 - 8</p>
+            <p class="price">&euro;41 night</p>
+            <p class="rating">&#9733; 5.0</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image/pic3.jpeg" alt="Dubai">
+        <div class="card-content">
+            <h3>Dubai, UAE</h3>
+            <p>1,199 kilometers away</p>
+            <p>Feb 1 - 6</p>
+            <p class="price">&euro;31 night</p>
+            <p class="rating">&#9733; 4.83</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image/pic4.jpeg" alt="Johannesburg">
+        <div class="card-content">
+            <h3>Johannesburg, South Africa</h3>
+            <p>7,052 kilometers away</p>
+            <p>Feb 17 - 22</p>
+            <p class="price">&euro;44 night</p>
+            <p class="rating">&#9733; 4.95</p>
+        </div>
+      </div>
+</div>
+<div class="grid2container">
+
+  <div class="card">
+    <img src="image/pic5.jpeg" alt="Kecamatan Cimenyan">
+    <div class="card-content">
+        <h3>Kecamatan Cimenyan, Indonesia</h3>
+        <p>5,635 kilometers away</p>
+        <p>Feb 3 - 8</p>
+        <p class="price">&euro;65 night</p>
+        <p class="rating">&#9733; 4.84</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="image/pic8.jpeg" alt="Mandaluyong">
+    <div class="card-content">
+        <h3>Mandaluyong, Philippines</h3>
+        <p>5,730 kilometers away</p>
+        <p>Feb 3 - 8</p>
+        <p class="price">&euro;41 night</p>
+        <p class="rating">&#9733; 5.0</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="image/pic6.jpeg" alt="Dubai">
+    <div class="card-content">
+        <h3>Dubai, UAE</h3>
+        <p>1,199 kilometers away</p>
+        <p>Feb 1 - 6</p>
+        <p class="price">&euro;31 night</p>
+        <p class="rating">&#9733; 4.83</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="image/pic7.jpeg" alt="Johannesburg">
+    <div class="card-content">
+        <h3>Johannesburg, South Africa</h3>
+        <p>7,052 kilometers away</p>
+        <p>Feb 17 - 22</p>
+        <p class="price">&euro;44 night</p>
+        <p class="rating">&#9733; 4.95</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- 4th section -->
+
+<div class="section4">
+  <div class="content">
+    <h2>Continue Exploring top city home</h2>
+    <button class="show-more">Show more</button>
+  </div>
+</div>
+
+<!-- 5th section  -->
+ <!-- container -->
+
+ <div class="container">
+    <h1>Inspiration for future getaways</h1>
+    <div class="tabs">
+      <span class="tab ">Popular</span>
+      <span class="tab">Arts & culture</span>
+      <span class="tab">Outdoors</span>
+      <span class="tab">Mountains</span>
+      <span class="tab">Beach</span>
+      <span class="tab">Unique stays</span>
+      <span class="tab">Categories</span>
+      <span class="tab">Manque stays</span>
+      <span class="tab">Pories</span>
+    </div>
+    <div class="grid">
+      <div class="location">
+        <span>Canmore</span>
+        <span>Apartment rentals</span>
+      </div>
+      <div class="location">
+        <span>Benalmádena</span>
+        <span>Beach house rentals</span>
+      </div>
+      <div class="location">
+        <span>Marbella</span>
+        <span>Apartment rentals</span>
+      </div>
+      <div class="location">
+        <span>Mijas</span>
+        <span>Apartment rentals</span>
+      </div>
+      <div class="location">
+        <span>Prescott</span>
+        <span>Cottage rentals</span>
+      </div>
+      <div class="location">
+        <span>Scottsdale</span>
+        <span>Apartment rentals</span>
+      </div>
+      <div class="location">
+        <span>Tucson</span>
+        <span>Pet-friendly rentals</span>
+      </div>
+      <div class="location">
+        <span>Jasper</span>
+        <span>Cabin rentals</span>
+      </div>
+      <div class="location">
+        <span>Mountain View</span>
+        <span>Cabin rentals</span>
+      </div>
+      <div class="location">
+        <span>Devonport</span>
+        <span>Cottage rentals</span>
+      </div>
+      <div class="location">
+        <span>Mallacoota</span>
+        <span>Pet-friendly rentals</span>
+      </div>
+      <div class="location">
+        <span>Ibiza</span>
+        <span>Vacation rentals</span>
+      </div>
+      <div class="location">
+        <span>Anaheim</span>
+        <span>House rentals</span>
+      </div>
+      <div class="location">
+        <span>Monterey</span>
+        <span>Cottage rentals</span>
+      </div>
+      <div class="location">
+        <span>Paso Robles</span>
+        <span>Cottage rentals</span>
+      </div>
+      <div class="location">
+        <span>Santa Barbara</span>
+        <span>House rentals</span>
+      </div>
+      <div class="location">
+        <span>Sonoma</span>
+        <span>Rentals with pools</span>
+      </div>
+      <div class="location">
+        <span>Proma</span>
+        <span>Rentals with pools</span>
+      </div>
+      <div class="location">
+        <span>Konoma</span>
+        <span>Rentals with pools</span>
+      </div>
+      <div class="location">
+        <span>Show more</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 6th section -->
+   <!-- footer upper section -->
+
+   <div class="footer">
+    <div class="footer-column">
+        <ul>
+            <p>Support</p>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">AirCover</a></li>
+            <li><a href="#">Anti-discrimination</a></li>
+            <li><a href="#">Disability support</a></li>
+            <li><a href="#">Cancellation options</a></li>
+            <li><a href="#">Report neighborhood concern</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <ul>
+            <p>Hosting</p>
+            <li><a href="#">Airbnb your home</a></li>
+            <li><a href="#">AirCover for Hosts</a></li>
+            <li><a href="#">Hosting resources</a></li>
+            <li><a href="#">Community forum</a></li>
+            <li><a href="#">Hosting responsibly</a></li>
+            <li><a href="#">Airbnb-friendly apartments</a></li>
+            <li><a href="#">Join a free Hosting class</a></li>
+            <li><a href="#">Find a co-host</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        
+        <ul>
+            <p>Airbnb</p>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">New features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">Gift cards</a></li>
+            <li><a href="#">Airbnb.org emergency stays</a></li>
+        </ul>
+    </div>
+</div> 
+
+<!-- last section footer 2 section-->
+
+<footer class="footer2">
+  <div class="footer2-left">
+    <p>© 2025 Airbnb, Inc.</p>
+    <a href="#">Terms</a>
+    <a href="#">Sitemap</a>
+    <a href="#">Privacy</a>
+    <a href="#">Your Privacy Choices</a>
+  </div>
+  <div class="footer2-right">
+   
+    <a href="#"><i class="fas fa-globe"></i> English (US)</a>
+
+    <a href="#">€ EUR</a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
